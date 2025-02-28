@@ -1,9 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
 .container {
- background-color: wheat;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
 }
-p {
+
+
+.dharma {
     text-align: center;
+    padding: 20px;
 }
-p2 {
-   text-align: center;
+
+.dharma h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.dharma hr {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.asura p {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+
+.dharma2 {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.dharma2 p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+
+.prima {
+    padding: 20px;
+    background-color: #e9f7fc;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.prima h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.prima p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .dharma h1 {
+        font-size: 1.5rem;
+    }
+
+    .prima h2 {
+        font-size: 1.5rem;
+    }
+
+    .dharma p, .asura p, .dharma2 p, .prima p {
+        font-size: 0.9rem;
+    }
 }
